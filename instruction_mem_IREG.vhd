@@ -32,7 +32,7 @@ architecture inferrable of instruction_mem is
 signal addr_reg		:std_logic_vector(ADDR_WIDTH-1 downto 0);
 begin 
 
-mem_read: process (clka)--add clk 
+mem_read: process (clka)--add clk   Only reading possible in instruction memory
 begin 
   if (clka = '1' and clka'event) then
         addr_reg          <= addr ; 

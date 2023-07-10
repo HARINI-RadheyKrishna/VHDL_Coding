@@ -1,13 +1,4 @@
---==========================================================================================================================
--- FILE NAME   : issue_unit.vhd
--- DESCRIPTION : issue unit helps to issue one instruction at a time even when multiple instructions are ready to be issued.
---              the priority depends on LRU bit and also the latency of instruction, long latency instructions are given
---              priority , so the priority order is - div, mult, ( int type and lw/sw depending on LRU bit).
--- AUTHOR      : PRASANJEET DAS, VAIBHAV DHOTRE
--- DATE        : 6/17/10, 6/23/06
--- TASK        : COMPLETE THE SIX TODO SECTIONS.
---===========================================================================================================================
--------------------------------------------
+
 
 -- LIBRARY DECLARATION
 library IEEE;
