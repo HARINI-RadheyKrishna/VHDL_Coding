@@ -5,9 +5,9 @@
 -- Register-writing instructions and memory-writing instructions are clearly distinguished.
 -------------------------------------------------------------------------------
 library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.STD_LOGIC_1164.ALL;  -- for performing all the logical operations on scalars and vectors 
+use IEEE.STD_LOGIC_ARITH.ALL;  -- for performing all the arithmetic operations 
+use IEEE.STD_LOGIC_UNSIGNED.ALL; -- for performing unsigned binary operations on the data 
 
 entity rob is
 		port( --inputs--
