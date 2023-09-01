@@ -57,7 +57,7 @@ begin
                     q <= '0000';  -- why not use '' instead of ""?
 
                 when COMPUTE_STATE =>
-                    if (x <= y) then 
+                    if (x >= y) then 
                         x <=x - y;
                         q_in <= q_in + 1;
                         state <= COMPUTE_STATE;
